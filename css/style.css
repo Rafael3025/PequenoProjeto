@@ -1,0 +1,30 @@
+.container1{
+    display: flex;
+    justify-content:space-between;
+    position: fixed    
+}
+
+body{
+    background-image: url(/imagem/pois\ e.jpg); 
+    background-size:contain;
+    background-attachment:fixed;
+ 
+};
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.BotaoBonito {
+    background-color: #0d0d0e; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 5px 5px; /* Preenchimento */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+
+   
+    
+
