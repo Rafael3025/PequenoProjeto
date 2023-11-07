@@ -1,22 +1,20 @@
 .container{
-    background-color: blue;
-    display: flex;
-    justify-content:space-between;
-    position: fixed    
+    background-color: blue; /*Cor de fundo */
+    display: flex;  /*exibição flexível */
+    justify-content:space-between; /*Cria um espaço entre os elementos */
+    position: fixed   /* posição fixa*/
 }
 
 body{
-    background-color: brown;
-    /* background-size:contain; */
-    /* background-attachment:fixed; */
+    background-color: brown; /*Cor de fundo */
  
 };
 html, body {
-    background-color: chartreuse;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    background-color: chartreuse; /* Cor de fundo */
+    width: 100%; /* largura */
+    height: 100%; /*Altura*/
+    margin: 0; /*Margem*/
+    padding: 0; /*Preenchimento*/
 }
 .BotaoBonito {
     background-color: #0d0d0e; /* Cor de fundo */
@@ -27,23 +25,26 @@ html, body {
     cursor: pointer; /* Altera o cursor ao passar o mouse */
 }
 .container1{
-    background-color: blueviolet;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display:flex;   /*exibição flexível */
+    flex-direction: row; /*Direção flexivel em linha */
+    justify-content: center; /*Alinha o conteudo no centro */
+    align-items: center; /*Alinha o conteudo no centro vertical do container */
     .img{      
-        margin-left: 300px;
-        padding:20px;
-        border-style: hidden;
-        width:300px;
-        height:300px;
-    }
-    .img2{
-        margin:0%;
-        padding:0%;
-        width: 250px;
-        height: 250px;
+        margin-left: 300px; /*Cria uma margem a esquerda do elemento */
+        padding:20px; /*Preenchimento*/
+        border-style: hidden; /*Aqui e um estilo de borda, oculto*/
+        width:300px; /*Largura*/
+        height:300px; /*Altura*/
+    } 
+ }  
+ .container2{
+    display: flex; /*exibição flexível */
+    flex-direction: column; /*Direção flexivel em coluna */
+   .img2{
+        margin:0%; /*Margem*/
+        padding:0%; /*Preenchimento*/
+        width: 250px; /*Largura*/
+        height: 250px; /*Altura*/
     }
 }
 
