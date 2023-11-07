@@ -1,5 +1,4 @@
 .container{
-    background-color: blue; /*Cor de fundo */
     display: flex;  /*exibição flexível */
     justify-content:space-between; /*Cria um espaço entre os elementos */
     position: fixed   /* posição fixa*/
